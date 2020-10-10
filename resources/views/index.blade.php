@@ -51,7 +51,7 @@
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
                 <article class="hentry post post-standard has-post-thumbnail sticky">
-
+                    {{-- {{dd($first_post->slug)}} --}}
                         <div class="post-thumb">
                             <img src="{{$first_post->featured}}" alt="{{$first_post->title}}">
                             <div class="overlay"></div>

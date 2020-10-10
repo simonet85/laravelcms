@@ -74,11 +74,8 @@ class ProfilesController extends Controller
         $this->validate($request,[
 
             'name'=>'required',
-
             'email'=>'required|email',
-
             'facebook'=>'required|url',
-
             'youtube'=>'required|url',
 
         ]);
